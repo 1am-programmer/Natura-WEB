@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natura - Download Now</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f5b7ca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        max-width: 400px;
+        width: 90%;
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      h1 {
+        color: #a83f98;
+        font-size: 24px;
+        margin: 10px 0;
+        display: block;
+        font-weight: bold;
+      }
+      p {
+        font-size: 16px;
+        color: #81017f;
+        margin-bottom: 20px;
+      }
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .download-buttons {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+      }
+      .btn img {
+        width: 180px;
+      }
+      @media (min-width: 600px) {
+        .download-buttons {
+          flex-direction: row;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Natura</h1>
+      <p>
+        Find SPAs near you easily with Natura. Download now and connect
+        instantly!
+      </p>
+      <div class="image-container">
+        <img src="img/preview.png" alt="Natura App Preview" />
+      </div>
+      <div class="download-buttons">
+        <!-- <a href="your-apk-link.apk" class="btn">
+          <img src="img/apk-icon.png" alt="Download APK" />
+        </a> -->
+        <a href="your-android-link" class="btn">
+          <img src="img/playstore.png" alt="Download on Google Play" />
+        </a>
+        <a href="your-ios-link" class="btn">
+          <img src="img/appstore.png" alt="Download on App Store" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
